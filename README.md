@@ -1,0 +1,2 @@
+# Artifical-Neural-Network-and-Basic-Genetic-Algorithms
+A versatile and modular artificial neural network built from scratch. In this project, we demonstrate its capabilities by teaching it to play a simple game, Snake. Snake is also modular and coded from scratch in the Pyglet library, keeping in mind that none of the elements in this project should be dependant and can function as independent units.
