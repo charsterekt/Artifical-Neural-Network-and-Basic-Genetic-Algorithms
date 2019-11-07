@@ -4,3 +4,6 @@ model with a few activation functions to choose from. More algorithms may be add
 
 For the snake game, the approach is simple. A fixed population and a number of generations are predefined. The selection and crossover occurs once every snake in a generation has played once. Mutation is a random chance currently set at 5%. The process continues for the maximum specified number of generations. A fitness function determines each snakes performance and the best performing snakes are saved and bred to repopulate the next generation once the bad performers have been disposed of. All the values can be modified easily. Multiprocessing has also been implemented to reduce the execution time as much as is feasible. The code will open as many threads as the host CPU allows. Switching has been added which allows for multiprocessing to be turned off by changing a single boolean value. 
 Once the set number of generations finish playing out, a new instance of the snake game will open and play at normal and viewable speeds so that we can see how the snake has evolved. 
+
+
+![](ezgif-1-a25d2a420684.gif)
