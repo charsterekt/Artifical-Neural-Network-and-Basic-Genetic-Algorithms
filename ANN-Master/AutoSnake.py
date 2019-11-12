@@ -109,10 +109,7 @@ def eval_net(net):  # To evaluate and calculate fitness etc. per each network
     if game.score == 0 or game.exit_code == 3:
         return 0
     else:
-        if game.steps > 50:
-            return game.score * 1000 - 50 - game.steps
-        else:
-            return game.score * 1000 + game.steps
+        return game.score * 1000 + (500 - game.steps)
 
 
 def evaluate_networks(pool, nets):  # This will be what helps run the actual game
@@ -171,7 +168,7 @@ if switch:
     game = None
 else:
     game = Game()
-    game.fps = 600
+    game.fps = 6000
 
 # Similarly for barriers in multiprocessing
 barrier = None
